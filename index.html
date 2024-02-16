@@ -1,39 +1,82 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Aileen Marte</title>
-    <!-- add link? -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Aileen Marte</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body><!-- web content below -->
+  <div>
+  <header>
+    <div class="box round">
+    <h1 class="text-centered">Aileen Marte</h1>
+    <h4 class="text-centered">Software Engineer</h4></div>
   
-  </head>
+    <!-- Navigation here -->
+    <nav class="text-centered"> 
+  <em> 
+      <a href="Home">Home|</a> 
+      <a href="About">About|</a>  
+      <a href="Contact">Contact</a>
+    </em>
+    </nav>
+    
+  </header>
+  
+  <hr>
+<article id ="Home"/article>
+<main class="box round wrapper">
+  <em><h2 class="text-centered">Hi and Welcome to my portfolio!</h2> </em>
+  <p>I'm Aileen Marte and I'm a flex engineering student attending Chegg Skills program. Currently residing in Houston, Texas! </p>
+  <hr>
+  
+  <!-- img = image; src = source -->
+<img src="aileen-grad-pic.JPG" width="200" alt="picture of me" class="image-style">
+  
+  <!-- image circle: <img src="aileen-grad-pic.jpg" class="image-circle" > -->
+  <!-- about me section -->
+<article id="About"/article>
+  <em><h3 class="align-right">About Aileen:</h3></em>
+  <p class="align-left">I am a patron of the arts and a lifelong learner. I recently graduated from the University of Houston-Clearlake with a Bachelor of Fine Arts in Studio arts. My passion in learning and creating has provided me with a direction to do both in web development.</p>
+  <p class="align-left">My ability to think critically, work collaboratively, and adapt to rapidly chaning environments makes me a valuable asset in the fast-paced world of technology.</p>
+  
+  <hr>
 
-  <body>
+    <em><h4 class="align-left">Outside of web development:</h4></em>
+  <ul class="align-left">
+    <li>I have two cats: Luna and Orion. (My beautiful senior babies)</li>
+    <li>I love eating good food, traveling, and making art.</li>
+    <li>I love outdoor activies! Camping, rockclimbing, yoga, etc. </li> 
+    <li>I'm learning German on this app called 'Duolingo'! </li>
+  </ul>
+    
+  </main>
 
-    <!-- WEB CONTENT BELOW -->
-<!-- content requirements -->
-<!-- intro section: Who you are and where you are located -->
-<!-- about me section: description of web development passion; 
-    willingness to work with others; 
-    1 or 2 interests outside of web developmet; -->
-<!-- contact section: 
-    linkedln profile;
-    github profile;
-    maybe email link; --
-<!-- TECHNICAL REQUIREMENTS: must be hosted on github;
-    inlcude main, article, and footer;
-    styled links using pseudo-classes;
-    comments throughout HTML and CSS explaining my code -->
-<!-- doctype, html, head, body, meta, title -->
-<!-- h1, h2, h3, p, link, ul, ol, img, a, hr -->
-    <h1>Aileen Marte</h1>
-    <h3>Software Developer and Artist</h3>
-    <h2>Welcome to my page!</h2>
-    <h4>Hi! I'm Aileen.</h4>
-    <p>
-      
-    </p>
-  </body>
+  <hr>
+     
+<!-- contact section -->
+<!-- <a></a>: anchor elements... to wrap around text or images to creat a link... has attribute: href(hypertext reference): web page will open when clicked -->
+  <!-- <div class="wrapper"> -->
+   
+  
+  <!-- footer section -->
+  <footer>
+  <article id="Contact"/article>
+    <p class="box round wrapper">Contact:</p> 
+    
+    <ul>
+      <li><a href="www.linkedin.com/in/amarte8">Linkedin</a></li>
+      <li><a href="https://github.com/aileenmarte">GitHub</a></li>
+      <li><a href="https://mail.google.com/mail/u/aileenmarte98@gmail.com">Email</a></li>
+    </ul>
+  
+  </footer>
+    </div>
+  
+  <script src="script.js"></script>
+</body>
+
 </html>
