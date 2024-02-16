@@ -1,1 +1,41 @@
+p{
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.box{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: aliceblue; 
+  color:black;
+  text-align: center;
+  font-size:40px
+  padding:50px;
+  margin:30px; 
+}
+
+.round{
+  border-radius: 10px;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.align-left{
+  text-align:left;
+}
+img {
+width: 300px;
+}
+.image-circle {
+border-radius: 50%;
+}
+
+.image-style{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+}
 
