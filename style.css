@@ -13,6 +13,8 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   margin:30px; 
 }
 
+.dotted { border: 1px dotted #000; }
+  
 .round{
   border-radius: 10px;
 }
